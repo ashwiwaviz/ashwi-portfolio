@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        var navbar = document.querySelector('nav')
+
+        window.onscroll = function () {
+
+            // pageYOffset or scrollY
+            if (window.pageYOffset > 0) {
+                navbar.classList.add('scrolled')
+                
+            } else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="nav scrolled">
+        <div class="logo">
+            <img src="./image/logo-header.png" alt="logo-header.png">
+        </div>
+
+
+        <div class="checkbtn">
+            <div class="button">
+                <i style="font-size:24px" id="burger-btn" class="fa" onclick="acitveMobile()">&#xf0c9;</i>
+            </div>
+        </div>
+        <div class="mobile_menu" id="mobile-menu" >
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="./music-page/index.html">portfolio</a></li>
+           <li><a href="#vlog">vlog</a></li>
+           <li> Contact</li>
+           <button  class="btn border-danger rounded-pill"><a href="download cv">Download CV</a></button>
+        </div>
+    <div class="menu">
+    <ul>
+        <li><a class="active"href="#">home</a></li>
+        <li> <a href="#about">about</a></li>
+        <li> <a href="#project">project</a></li>
+        <li> <a href="#service">service</a></li>
+        <li> <a href="#blog">blog</a></li>
+        <li> <a href="#about">about</a></li>
+       
+        <button class="btn border-danger rounded-pill">Download CV</button>
+        
+    </ul>
+</div>
+</div>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="header">
+          
+            <div class="container p-5">
+                <div class="row">
+                    <div class="col-md-6">
+                       
+                        <div class="image_text-1">
+                            <h5 class="text-danger">Hello, I'm</h5>
+                        <h1>Ashwi Rao</h1>
+                        <p >A<span class="text-success"> Creative Devloper </span> Form <span class="text-primary"> Kasia </span></p>
+                        <div class="para-text">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est velit quia optio ad eum quibusdam expedita fugiat voluptas beatae voluptatum placeat perferendis, doloremque quasi quis qui corrupti, nesciunt dignissimos iusto!
+                            </p>
+                        </div>
+                        <div class="btn_main">
+                            <button class="btn btn-danger rounded-pill">About Me</button>
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-behance"></i>
+                            </div>
+                        </div>
+
+                        </div>
+                       
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-box-1">
+                             <img src="./image/pic.jpeg" alt="pic.jpeg "> 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-- header style end -->
+           <div class="section" id="about">
+            <div class="container">
+                <div class="row m-0 p-0">
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="circle_image">
+                                <img src="./image/html.png" alt="html.png">
+
+                            </div>
+
+                        </div>
+                        <div class="text">
+                            <h3 class="text-center text-uppercase">html</h3>
+                            <p class="text-center">
+                                The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box">
+                            <div class="circle_image">
+                                <img src="./image/css.png" alt="css.png">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="text">
+                            <h3 class="text-center text-uppercase">css</h3>
+                           <p class="text-center">
+                            Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as html or xml
+                           </p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="box">
+                            <div class="circle_image">
+                                <img src="./image/java.png" alt="java.png">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="text">
+                            <h3 class="text-center text-capitalize">java</h3>
+                           <p class="text-center">
+                            Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Wikipedia
+                           </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image_box-2">
+                            <img src="./image/traning-img-2.png" alt="traning-img-2.png">
+                            
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image_text">
+                            <h3 class="text-capitalize text-danger">i'm a developer</h3>
+                            <h2 class="text-capitalize">i can devlop anything you want </h2>
+                            <p class="py-4 text-align-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur pariatur optio minima non quam delectus facilis animi nam ad impedit quos necessitatibus illo, earum cum eaque saepe, eos, recusandae doloribus.
+                            </p>
+                            <button class="btn btn-danger border-none rounded-pill"> Hire Me</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+           </div>
+           <!-- section end -->
+           <!-- portfolio section start -->
+           <div class="portfolio_sectio">
+
+               <div class="container">
+                   <div class="row">
+                       <div class="col-sm-12 m-auto col-md-10 pt-5">
+                           <div class="portfolio_text">
+                               <h4 class="text-capitalize text-center text-danger">portfolio</h4>
+                               <h1 class="text-capitalize text-center">my amazin work</h1>
+                               <p class="text-center">
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus similique dolorum in veritatis asperiores enim natus voluptatibus aut amet. Ut, explicabo odio? Odio, maxime!
+
+                               </p>
+                                <div class="portfolio_menu">
+                                 <ul>
+                                     <li><a class="active" href="#">all</a></li>
+                                     <li>youtube</li>
+                                     <li>viemo</li>
+                                     <li>soundcloud</li>
+                                     <li>popup</li>
+                                     <li>detail</li>
+                                 </ul>
+                             </div>
+                            </div>
+                           </div>
+
+                       </div>
+                      
+                    
+                       
+                      
+                   </div>
+                   <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 g-5">
+                            <div class="card_image">
+                                <img src="./image/flower-2.png" alt="flower-2.png">
+        
+                            </div>
+                            <div class="card_box">
+                                <img src="./image/flower-3.png" alt="flower-3.png">
+        
+                            </div>
+                        </div>
+                        <div class="col-md-4 g-5">
+                            <div class="card_image_2">
+                                <img src="./image/flower-3.png" alt="flower-3.png">
+        
+                            </div>
+                            <div class="card_box_2">
+                                <img src="./image/flower-2.png" alt="flower-2.png">
+        
+                            </div>
+                        </div>
+                        <div class="col-md-4 g-5">
+                            <div class="card_image">
+                                <img src="./image/flower-2.png" alt="flower-2.png">
+        
+                            </div>
+                            <div class="card_box">
+                                <img src="./image/flower-3.png" alt="flower-3.png">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <div class="portfolio_text">
+                                <h1 class="text-capitalize text-center">my amazing project </h1>
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    a quo.Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 g-5">
+                            <div class="portfolio_project_card" id="project">
+                                <iframe src="https://ashwiwaviz.github.io/ashwi-portfolio/music-webpage" width="100%" height="300px"
+                                    scrolling="no" frameborder="0"></iframe>
+                                <div class="image_overlay_text">
+                                    <p class="text-white"> <a href="https://ashwiwaviz.github.io/ashwi-portfolio/music-webpage"
+                                            target="_blank">Music</a></p>
+                                </div>
+                            </div>
+                            <div class="portfolio_project_card mt-5">
+                                <iframe src="https://ashwiwaviz.github.io/ashwi-portfolio/resume" width="100%" height="300px"
+                                    scrolling="no" frameborder="0"></iframe>
+                                <div class="image_overlay_text">
+                                    <p class="text-white"> <a href="https://ashwiwaviz.github.io/ashwi-portfolio/resume"
+                                            target="_blank">Resume</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 g-5">
+                            <div class="portfolio_project_card">
+                                <iframe src="https://ashwiwaviz.github.io/ashwi-portfolio/food-web-page"
+                                width="100%" height="300px"
+                                    scrolling="no" frameborder="0"></iframe>
+                                <div class="image_overlay_text">
+                                    <p class="text-white"> <a href="https://ashwiwaviz.github.io/ashwi-portfolio/food-web-page"
+
+                                            target="_blank">Food-webpage</a></p>
+                                </div>
+                            </div>
+                            <div class="portfolio_project_card mt-5">
+                                <iframe src="https://ashwiwaviz.github.io/ashwi-portfolio/survey-form" width="100%" height="300px"
+                                    scrolling="no" frameborder="0"></iframe>
+                                <div class="image_overlay_text">
+                                    <p class="text-white"> <a href="https://ashwiwaviz.github.io/ashwi-portfolio/survey-form"
+                                            target="_blank">Survey-Form</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 g-5">
+                            <div class="portfolio_project_card">
+                                <iframe src="https://ashwiwaviz.github.io/ashwi-portfolio/documentation" width="100%" height="300px"
+                                    scrolling="no" frameborder="0"></iframe>
+                                <div class="image_overlay_text">
+                                    <p class="text-white"> <a href="https://ashwiwaviz.github.io/ashwi-portfolio/documentation"
+                                            target="_blank">Documentation</a></p>
+                                </div>
+                            </div>
+                            <div class="portfolio_project_card mt-5">
+                                <iframe src="" width="100%" height="300px" scrolling="no" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-6">
+                               <div class="devops_skills">
+                               <div class="devops_skills_text">
+                                <h4 class="text-capitalize  text-danger">design in life</h4>
+                                <h2 class="text-capitalize">i develop skills regularly <br>to keep me update</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis,  eum! Optio saepe, officiis doloremque neque atque </p>
+                               
+                               <div class="progress_container">
+                                   <span>85%</span>
+                                <div class="progress">
+                                    
+                                    <div class="progress-bar bg-danger" style="width:85%"></div>
+                
+                                  </div>
+                               </div>
+                                  <br>
+                                     <div class="progress_container">
+                                        <span style="position: absolute;right:25px;">95%</span>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" style="width:95%"></div>
+                                          </div>
+                                     </div>
+                                  
+                                  <br>
+                                 <div class="progress_container">
+                                     <span style="position: absolute; right: 120px;">75%</span>
+                                     <span style="position: absolute; left: 9px; top: -8px; color: black;">figma</span>
+                                     <div class="progress">
+                                        <div class="progress-bar bg-primary" style="width:75%"></div>
+                                      </div>
+                                 </div>
+                                                               
+                               </div>
+                               </div>
+
+                           </div>
+                       
+                       <div class="col-md-6">
+                           <div class="devops_skills">
+                               <img src="./image/traning-img.png" alt="traning-img.png">
+                           </div>
+
+                       </div>
+                   </div>
+               </div>
+             </div>
+             <!-- portfolio-section end -->
+             <!-- service section start -->
+             <div class="service_section" id="service">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-12 m-auto col-md-10 pt-5">
+                             <div class="service_text pt-5">
+                                 <h4 class="text-center text-capitalize text-danger">services</h4>
+                                 <h1 class="text-center text-capitalize">what is do for clients</h1>
+                                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis iste repellat? Eum minima in vitae ratione ipsa? Incidunt doloribus inventore alias eligendi ex.</p>
+                                
+
+                                 
+                             </div>
+
+                         </div>
+                     </div>
+                 </div>
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service_card">
+                                <div class="design_logo">
+                                    <img src="./image/html.png" alt="html.png">
+                                </div>
+                                <div class="design_text">
+                                    <h2 class="text-capitalize">creative design</h2>
+                                    <h5 class="text-capitalize pt-3">starts form <span style="color: red;">$99</span></h5>
+                                    <p class="text-align-justify pt-5 font-size:30px">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Officiis ut sed accusamus ullam unde voluptas ea, nobis
+                                        nostrum culpa numquam vel labore facere sapiente tenetur,
+                                        at non.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service_box">
+                                <div class="design_logo">
+                                    <img src="./image/css.png" alt="css.png">
+                                </div>
+                                <div class="design_text">
+                                    <h2 class="text-capitalize">creative design</h2>
+                                    <h5 class="text-capitalize pt-3">starts form <span style="color: red;">$299</span></h5>
+                                    <p class="text-align-justify pt-5 font-size:30px">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Officiis ut sed accusamus ullam unde voluptas ea, nobis
+                                        nostrum culpa numquam vel labore facere sapiente tenetur,
+                                        at non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service_card">
+                                <div class="design_logo">
+                                    <img src="./image/react.png" alt="react">
+                                </div>
+                                <div class="design_text">
+                                    <h2 class="text-capitalize">graphics design</h2>
+                                    <h5 class="text-capitalize pt-3">starts form <span style="color: red;">$199</span></h5>
+                                    <p class="text-align-justify pt-5 font-size:30px">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Officiis ut sed accusamus ullam unde voluptas ea, nobis
+                                        nostrum culpa numquam vel labore facere sapiente tenetur,
+                                        at non .
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service_box">
+                                <div class="design_logo">
+                                    <img src="./image/java.png" alt="java">
+                                </div>
+                                <div class="design_text">
+                                    <h2 class="text-capitalize">creative design</h2>
+                                    <h5 class="text-capitalize pt-3">starts form <span style="color: red;">$399</span></h5>
+                                    <p class="text-align-justify pt-5 font-size:30px">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Officiis ut sed accusamus ullam unde voluptas ea, nobis
+                                        nostrum culpa numquam vel labore facere sapiente tenetur,
+                                        at non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+                <!-- testimonials section start -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <div class="testimonials_text pt-5">
+                                <h4 class="text-center text-capitalize text-danger">testimonials</h4>
+                                <h1 class="text-center text-capitalize">what my clients say</h1>
+                                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis iste repellat? Eum minima in vitae ratione ipsa? Incidunt doloribus inventore alias eligendi ex.</p>
+                                 </div>
+                                 <div class="container">
+                                     <div class="row">
+                                         <div  class="col-sm-12 m-auto col-md-10 pt-5">
+                                             <div class="testimonials">
+                                                 <div class="testmonials_image">
+                                                     <img src="./image/icon-quotation-mark-red.png" alt="icon-quotation-mark-red.png">
+                                                 </div>
+                                             </div>
+                                             <div class="testmonials_para">
+                                                 <p class="pt-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad labore corporis quaerat neque fugiat doloribus. Iste, doloribus. Facere eveniet dolor magnam asperiores fugit architecto sint aliquid ratione facilis modi.lorem
+                                                    Facere eveniet dolor magnam asperiores fugit architecto sint aliquid ratione facilis modi.lorem
+                                                 </p>
+                                             </div>
+
+                                             
+
+                                         </div>
+                                     </div>
+                                 </div>
+
+                        
+
+                    </div>
+                </div>
+               
+             </div>
+             <div class="blog_section" id="blog">
+                 <div class="container">
+                     <div class="row align-items-start mx-auto pt-5">
+                         <div class="col-md-3 px-0">
+                             <div class="blog_card">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+        
+
+                             </div>
+                             <div class="blog_card_1">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+
+                             </div>
+
+                         </div>
+                         <div class="col-md-3 px-0">
+                            <div class="blog_card">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+
+                            </div>
+                            <div class="blog_card_1">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+                                
+                            </div>
+
+                         </div>
+                         <div class="col-md-3 px-0">
+                            <div class="blog_card">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+
+                            </div>
+                            <div class="blog_card_1">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+                                
+                            </div>
+
+                         </div>
+                         <div class="col-md-3 px-0">
+                            <div class="blog_card">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+
+                            </div>
+                            <div class="blog_card_1">
+                                <div class="logo">
+                                    <img src="./image/logo-header.png" alt="logo-header.png">
+                                </div>
+                                
+                            </div>
+
+                         </div>
+
+                     </div>
+                 </div>
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <h4 class="text-center text-capitalize text-danger pt-5">from my blog</h4>
+                            <h1 class="text-center text-capitalize">our recent update,blog,tips,<br>tricks&more</h1>
+                             
+
+                         </div>
+
+                     </div>
+                 </div>
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="blog_image_box mt-5">
+                                <div class="blog_image_box_calendar">
+                                    <img src="./image/computer-student-image.png" alt="computer-student-image.png">
+                                    <div class="image-calendar">
+                                        <h4 class="text-center text-white text-capitalize">25 <br>DEC</h4> 
+                                    </div>
+                                </div>
+                                <h4 class="text-capitalize text-danger pt-3">web development</h4>
+                                <p><b>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corporis quibusdam .</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog_image_box mt-5">
+                                <div class="blog_image_box_calendar">
+                                    <img src="./image/computer-student-image.png" alt="computer-student-image.png">
+                                    <div class="image-calendar">
+                                        <h4 class="text-center text-white text-capitalize">25<br>DEC</h4> 
+                                    </div>
+                                </div>
+                                <h4 class="text-capitalize text-danger pt-3">bonding</h4>
+                                <p>
+                                    <b>lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corporis quibusdam .</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog_image_box mt-5">
+                                <div class="blog_image_box_calendar">
+                                    <img src="./image/computer-student-image.png" alt="computer-student-image.png">
+                                    <div class="image-calendar">
+                                        <h4 class="text-center text-white text-capitalize">25 <br>DEC</h4> 
+                                    </div>
+                                </div>
+                                <h4 class="text-capitalize text-danger pt-3">social media</h4>
+                                <p >
+                                   <b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, corporis quibusdam .</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <div class="square">
+                                <div class="square_text">
+                                    <h5 class="text-capitalize text-white px-5 pt-5">subscribe now</h5>
+                                    <h2 class="text-capitalize text-white px-5 ">get my newsletter</h2>
+                                    <h6 class="text-capitalize text-white px-5 ">get latest news,updates,tips and tricks in your
+                                        box</h6>
+                                </div>
+                                <div class="square_input ">
+                                    <form >
+                                        <input type="email" placeholder="Your email is here">
+                                        <button type="send now">Send now</button>
+                                    </form>
+                                </div>
+                            </div>
+                           
+                              
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <h4 class="text-capitalize text-danger  text-center pt-5">contact me</h4>
+                            <h3 class="text-capitalize text-center">i want to here form you</h3>
+                            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dignissimos eligendi autem animi pariatur, earum dicta mollitia doloremque consequatur, officia labore modi unde beatae, quos ipsa cumque quia eaque aliquam?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="blog_address_main">
+                                <div class="blog_address">
+                                    <div class="address_logo ">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div> 
+                                    <div class="address_logo_text pt-4 px-3">
+                                        <h3>Address</h3>
+                                        <p>20,somewhere in world</p>
+                                    </div>
+                                </div>
+                                <div class="blog_address_1 d-flex">
+                                    <div class="address_logo_1 ">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div> 
+                                    <div class="address_logo_text_1 pt-4 px-3">
+                                        <h3>Email</h3>
+                                        <p>hello@waviz.com</p>
+                                    </div>
+                                </div>
+                                <div class="blog_address_2 d-flex">
+                                    <div class="address_logo_2 ">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div> 
+                                    <div class="address_logo_text_2 pt-4 px-3">
+                                        <h3>Phone</h3>
+                                        <p>*123 456 7890</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        <div class="col-md-6">
+                        <div class="address_input">
+                            <input type="text"placeholder="Your Name"name="name">
+                            <input type="text"placeholder="Your email"name="name">
+                            <input type="text"placeholder="Your phone"name="name">
+                            <input type="text"placeholder="subject"name="name">
+                        </div>
+                        <div class="query">
+                            <div class="form_group">
+                                <textarea class="form-control"placeholder="Write your message here" rows="7"></textarea>
+
+                            </div>
+
+                        </div><br>
+                        <div class="btn">
+                        <button class="btn rounded-pill bg-danger text-white">submit Now</button>
+                    </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 m-auto col-md-10 pt-5">
+                            <div class="square_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.837094604054!2d83.91263841441226!3d26.74957417353499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993eb5cb631c861%3A0xb6398b35542882fb!2sWaviz%20Technologies%20(P)%20Ltd%20Kushinagar!5e0!3m2!1sen!2sin!4v1665483825536!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="container">
+                 <div class="row pt-5 ">
+                     <div class="map_section_bottom ">
+                         <div class="bottom_content">
+                             <p>Devloped width love by marketify 2022</p>
+                         </div>
+                         <div class="bottom_text">
+                             <p >Terms&Condition</p>
+                             
+                         </div>
+                         <div class="bottom_text_1">
+                             <p>Privacy Policy</p>
+
+                         </div>
+                         
+
+                     </div>
+                 </div>
+             </div>
+             
+           <script>
+                 var mobileMenu = document.getElementById('mobile-menu');
+
+               function acitveMobile(){
+                mobileMenu.classList.toggle('mobile_menu_active');
+                mobileMenu.style.backgroundColor = "#ddd";
+
+        
+
+               }
+           </script>
+        
+
+
+        
+    
+</body>
+</html>
